@@ -1,0 +1,12 @@
+body {
+  --booster-color: #2B4162;
+  --booster-text: #fcfafa;
+  --booster-line: #2B5172;
+  --booster-bold: #a44a3f; 
+  --booster-dot: #4DA167;
+}
+
+.app__body {
+  display: flex;
+  height: 100vh;
+}
