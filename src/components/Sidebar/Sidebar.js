@@ -3,7 +3,7 @@ import './Sidebar.css';
 import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord';
 import SidebarOption from '../SidebarOption/SidebarOption';
 import CreateIcon from '@material-ui/icons/Create';
-import InsertCommentIcon from '@material-ui/icons/InsertComment'
+import InsertCommentIcon from '@material-ui/icons/InsertComment';
 import InboxIcon from '@material-ui/icons/Inbox';
 import DraftsIcon from '@material-ui/icons/Drafts';
 import BookmarkBorderIcon from '@material-ui/icons/Bookmark';
@@ -30,7 +30,7 @@ function Sidebar() {
                     }))
             )
         ));
-    }, [])
+    }, []);
 
     return (
         <div className='sidebar'>

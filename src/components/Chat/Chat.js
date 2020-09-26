@@ -19,8 +19,8 @@ function Chat() {
             //     .onSnapshot((snapshot) => (
             //         setZoneDetails(snapshot.data())))
             db.collection('zones').doc(zoneId).onSnapshot((snapshot) => {
-                setZoneDetails(snapshot.data())
-            })
+                setZoneDetails(snapshot.data());
+            });
         }
         db.collection("zones").doc(zoneId)
         .collection('messages')
@@ -29,7 +29,7 @@ function Chat() {
             setZoneMessages(
                 snapshot.docs.map(doc => doc.data())
             )
-        )
+        );
     }, [zoneId]);
 
     console.log(zoneDetails);
