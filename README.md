@@ -15,3 +15,7 @@ Trello board here: https://trello.com/b/ebxgFJxv/slack-clone
 ## Screenshot of Trello mid progress
 
 ![Trello Project](/images/slack-clone-trello.png)
+
+## Wireframe of Booster Chat
+
+![wireframe Project](/images/booster-wireframe.png)
